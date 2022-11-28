@@ -1,0 +1,42 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.topLine{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    border: 2px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    
+}
+
+.newImage{
+    width: 20%;
+}
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.bigimmagenone{
+    display: none;
+}
+.bigimmagevisible{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+.bigimgDiv{
+    margin: 0 auto;
+  
+    
+}
